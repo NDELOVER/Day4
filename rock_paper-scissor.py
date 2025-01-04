@@ -49,7 +49,7 @@ while play_again:
     else:
         print("Tie!")
     check = input("Do you want to play again? Y or N ")
-    if check == "N":
+    if check == "N" or check == "n":
         play_again = False
 
 
